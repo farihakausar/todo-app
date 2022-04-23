@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background: linear-gradient(to right, rgb(54, 133, 165), rgb(41, 86, 112));
+    font-family: "Dancing Script", cursive;
+    color: white;
+    text-align: center;
+    margin: 50px;
+  }
+  h2,
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  ul li {
+      list-style-type: upper-greek;
+  }
+  
+  #delItem,#addItem{
+      display: inline-block;
+  }
+  #input1,#delItem,#addItem{
+      font-size: 2rem;
+    border-radius: 5px;
+  }
+  #input1:hover,#addItem:hover,#delItem:hover{
+      background-color: black;
+      color:wheat ;
+      border: 6px dotted rgb(155, 42, 42);
+  }
