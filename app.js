@@ -33,6 +33,13 @@ var li = document.createElement("li");
   
   editbtn.style.display = "inline-block";
   delbtn.style.margin="7px";
+if(input1.value=="")
+{
+delbtn.style.diplay="none";
+editbtn.style.display="none";}
+else {
+delbtn.style.display="inline-block";
+editbtn.style.display="inline-block";}
 });
 function deltask(){
 
