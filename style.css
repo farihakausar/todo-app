@@ -27,6 +27,7 @@ body {
   #input1,#delItem,#addItem{
       font-size: 2rem;
     border-radius: 5px;
+padding:10px;
   }
   #input1:hover,#addItem:hover,#delItem:hover{
       background-color: black;
